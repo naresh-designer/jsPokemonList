@@ -29,15 +29,19 @@ h1{
 }
 .card__container{
     position: relative;
+    transition: all .5s;
+}
+.card:hover .card__container{
+    filter: grayscale(1) blur(10px);
+}
+.card:hover .card__container:hover{
+    filter: none;
 }
 .card__inner{
     background-color: #222;
     padding: 20px;
     color: white;
     transition: .5s;
-}
-.card__container:hover .card__inner{
-    background-color: #ccc;
 }
 .card__image{
     transition: .5s;

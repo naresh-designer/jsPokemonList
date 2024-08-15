@@ -1,4 +1,4 @@
-const apiData = "https://pokeapi.co/api/v2/pokemon?limit=32";
+const apiData = `https://pokeapi.co/api/v2/pokemon/`;
 const listProductDiv = document.querySelector(".card");
 
 let pokemonList = [];
